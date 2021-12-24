@@ -1,4 +1,5 @@
 # Data Preprocessing
 
 # Importing libraries
-import numpy
+import numpy as np
+import matplotlib.pyplot as plt
