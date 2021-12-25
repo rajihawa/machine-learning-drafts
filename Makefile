@@ -10,4 +10,4 @@ install-r:
 
 setup-r:
 	python -m pip install radian
-	alias R="radian"
+	echo "alias r=\"radian\"" | sudo tee -a ~/.bashrc

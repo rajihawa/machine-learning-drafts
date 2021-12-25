@@ -1,0 +1,6 @@
+{
+    // "r.alwaysUseActiveTerminal": true,
+    "r.bracketedPaste": true,
+    "r.rterm.linux": "/workspaces/machine-learning-drafts/venv/bin/radian",
+    "python.terminal.activateEnvironment": false
+}
