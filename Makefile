@@ -8,6 +8,12 @@ install-r:
 	sudo Rscript -e 'install.packages("devtools")'
 	sudo Rscript -e 'install.packages("languageserver")'
 
+remove-r:
+	sudo Rscript -e 'remove.packages("devtools")'
+	sudo Rscript -e 'remove.packages("languageserver")'
+	sudo apt remove -y r-base
+	python -m pip uninstall radian
+
 setup-r:
 	python -m pip install radian
 	echo "alias r=\"radian\"" | sudo tee -a ~/.bashrc
